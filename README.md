@@ -1,7 +1,7 @@
-# Technical Task was deployed on Netlify: [tpayuserdata.netlify.app](https://hedefler.herokuapp.com)
+# Technical Task was deployed on Netlify: [tpayuserdata.netlify.app]([https://tpayuserdata.netlify.app])
 
-## please do not forget to run NPM INSTALL after you clone the project
+## please don't forget to run NPM INSTALL 
 
-## after page refresh, use data will be deleted
+## if you reload the page, form data will be lost
 
-### EDITING USER DATA WAS NOT COMPLETE
+### THE TASK IS NOT FULLY COMPLETED -> EDIT OPERATION WAS NOT IMPLEMENTED
