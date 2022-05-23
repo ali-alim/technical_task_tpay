@@ -12,10 +12,10 @@ var today = new Date();
 const Form = ({ usersInfo, setUsersInfo }) => {
   const navigate = useNavigate();
   const userExists = (e) => {
-    usersInfo.map((user) => {
-      if (user.პირადი_ნომერი === e.target.value) USER_EXISTS = true;
-      else USER_EXISTS = false;
-    });
+    usersInfo.map((user) => 
+      {if (user.პირადი_ნომერი === e.target.value) USER_EXISTS = true;
+      else USER_EXISTS = false;}
+    );
   };
 
   const {

@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Form from "./components/Form";
 import Home from "./pages/Home";
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 
 
@@ -13,6 +14,20 @@ const columns = [
   "დაბადების_თარიღი",
   "დაბადების_ადგილი",
   "მისამართი",
+  {
+    name: "რედაქტირება",
+    options: {
+      filter: true,
+      sort: false,
+      empty: true,
+      customBodyRender: (value, tableMeta, updateValue) => {
+        return (
+          <MoreVertIcon onClick={() => window.alert(`Clicked "Edit" for row ${tableMeta.rowIndex}`)} />
+        
+        );
+      }
+    }
+  },
 ];
 
 const options = {
