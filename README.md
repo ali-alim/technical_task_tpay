@@ -1,4 +1,4 @@
-# Technical Task was deployed on Netlify: [tpayuserdata.netlify.app](https://tpayuserdata.netlify.app)
+# Technical Task was deployed on Netlify: [tpayuserdata.netlify.app](https://tpay.netlify.app)
 
 ## please don't forget to run NPM INSTALL 
 
